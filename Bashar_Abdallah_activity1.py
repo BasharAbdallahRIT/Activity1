@@ -172,9 +172,7 @@ def draw_cake(cake_length, cake_color1, cake_color2, cake_color3, turta):
     draw_candle(turta)
 
     turta.up()
-    turta.bk(
-        0.1 * cake_length + 10
-    )  # Move back to the left once the candle is done to draw the cherry
+    turta.bk(0.1 * cake_length + 1)  # Move back to the left once the candle is done to draw the cherry
     turta.down()
 
     # Draw red cherry on top
